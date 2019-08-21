@@ -1,0 +1,20 @@
+.bd{
+    height: 30px;
+    background-color: red;
+}
+.bd1{
+    height: 30px;
+    background-color: blue;
+}
+.dbox{
+    height: 30px;
+    border:2px solid blue;   
+}
+.cbox{
+    border: 3px solid black;
+    height:auto;
+    width:auto;
+}
+.arow{
+border: 3px solid;
+}

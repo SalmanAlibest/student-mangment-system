@@ -1,0 +1,84 @@
+body
+{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(lib.jpg);
+height: 600px;
+background-size: cover;
+background-position: center;
+}  
+    
+h1{
+color: white;
+font-family: serif;
+font-size: 40px;
+text-align: center;
+margin-top: 80px ;
+}
+ul.top{
+    list-style-type:none;
+            padding:10px;
+            overflow:hidden;
+            position: relative;
+            left:700px;
+            margin-top:20px;
+            color:black;
+}
+
+ul.top li.menu{
+    display: inline-block;
+}
+
+ li.menu {
+	text-decoration: none;
+	color: #fff;
+	padding:  5px 10px;
+	border: 1px solid transparent;
+	transition:all 1s ease; 
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding:  5px 10px;
+        border: 1px solid transparent;
+        transition:all 1s ease; 
+        }
+        
+li.menu:hover {
+    
+    background-color: #fff;
+    color: #000;
+     }
+li.menu.active {
+    background-color: #fff;
+    color: #000;
+}
+
+ul.operation{
+            list-style-type:none;
+            padding:10px;
+            overflow:hidden;
+            text-align: center;
+            position: relative;
+            margin-top:20px;
+            color:black;
+}
+
+ul.operation li.menu1{
+    display: inline-block;
+}
+
+li.menu1 a{
+	text-decoration: none;
+	color: #fff;
+	padding:  5px 10px;
+	border: 1px solid transparent;
+	transition:all 1s ease; 
+    }
+li.menu1:hover a{
+    
+    background-color: #fff;
+    color: #000;
+     }
+li.menu1.active a{
+    background-color: #fff;
+    color: #000;
+}
